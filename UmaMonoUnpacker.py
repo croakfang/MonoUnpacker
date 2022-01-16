@@ -19,7 +19,7 @@ for obj in env.objects:
                 jsonFile.close();
 
             os.startfile("tmp.txt")
-            input("修改后任意键继续"); 
+            input("修改后按任意键继续"); 
 
             with open("tmp.txt", "w+",encoding='utf-8') as jsonFile:
                 tree = json.load(jsonFile)
